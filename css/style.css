@@ -1,0 +1,114 @@
+#button {
+  background-color: #3BBFC9; }
+
+p {
+  line-height: 1.3 !important; }
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 9999; }
+  @media (min-width: 640px) {
+    header {
+      height: 70px; } }
+  header .nav-bg {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: -1;
+    opacity: 0.8;
+    transition: 0.5s all; }
+    @media (min-width: 640px) {
+      header .nav-bg {
+        height: 70px; } }
+
+ul li {
+  display: inline;
+  font-size: 16px;
+  line-height: 80px;
+  margin-left: 5px; }
+  @media (min-width: 640px) {
+    ul li {
+      font-size: 22px;
+      margin-left: 20px; } }
+  ul li a,
+  ul li a:hover,
+  ul li a:visited {
+    color: #fff;
+    text-decoration: none; }
+  @media (min-width: 640px) {
+    ul li {
+      line-height: 70px; } }
+
+nav {
+  padding-left: 5px;
+  padding-right: 15px; }
+  nav .nav-logo {
+    margin-top: 20px;
+    max-width: 80px; }
+    @media (min-width: 640px) {
+      nav .nav-logo {
+        margin-top: 10px;
+        max-width: 100px; } }
+  nav .social-media-icon {
+    display: none; }
+    @media (min-width: 640px) {
+      nav .social-media-icon {
+        display: inline; } }
+
+.banner {
+  position: relative;
+  height: 50%; }
+  .banner .banner-logo {
+    max-width: 800px;
+    padding-top: 18vh; }
+    @media (min-width: 640px) {
+      .banner .banner-logo {
+        padding-top: 30vh; } }
+  .banner .banner-bg {
+    position: absolute;
+    top: 0;
+    filter: blur(0px);
+    height: 30%; }
+  @media (min-width: 640px) {
+    .banner {
+      height: 100%; } }
+
+.divider {
+  background-color: #3BBFC9; }
+  .divider .weare {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 75px;
+    padding-bottom: 75px; }
+
+.team {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .team .team-photo h3 {
+    font-size: 28px; }
+  .team .team-photo p {
+    font-size: 20px; }
+  @media (min-width: 640px) {
+    .team .team-photo {
+      height: 570px; }
+      .team .team-photo h3 {
+        font-size: 24px; }
+      .team .team-photo p {
+        font-size: 15px; } }
+  @media (min-width: 1024px) {
+    .team .team-photo {
+      height: 580px; } }
+  .team .team-photo .team-text {
+    color: #fff;
+    padding: 15px; }
+
+footer {
+  background-color: #3BBFC9; }
+  footer .copyright {
+    position: relative;
+    color: #fff;
+    z-index: 99; }
